@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    gap: 10px;
+    display: block;
+  }
+  
+  .app-container {
+    padding: 20px;
+  }
+  
+  .players-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .fifa-card {
+    width: 200px;
+    background: linear-gradient(135deg, #ffcc00, #ff6600);
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px;
+    gap: 15px;
+  }
+  
+  .fifa-card .card-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .player-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid white;
+  }
+  
